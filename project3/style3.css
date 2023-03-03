@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Lobster', cursive; */
+}
+body{
+    background-image: url(assets/pexels-maxyne-barcel-10402282\ 1.png);
+    background-size: cover;
+  
+}
+/* .container{
+    display: flex;
+} */
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 35px;
+padding: 0 40px 0 40px;
+/* font-family: 'Abril Fatface', cursive; */
+
+}
+.list{
+   display: flex; 
+    align-items: center;
+    list-style: none;
+  gap: 60px;
+  font-weight: 800;
+  font-size: 25px;
+ color: #f2d70d;
+    
+}
+.smallbutton{
+    background-color: #ef280d;
+    color: #ffffff;
+    border: none;
+    font-size: 25px;
+font-weight: 700;
+padding: 8px 35px;
+}
+.hero{
+   text-align: center;
+   margin: 35px;
+   color: #f2d70d;
+   font-size: 40px;
+   font-weight: 900;
+}
+
+.largbutton{
+    background-color: #ef280d;
+    color: #ffffff;
+    border: none;
+    padding: 12px 50px;
+    font-size: 25px;
+    margin: 20px;
+}
+.buttom{
+    right: 45px; 
+    bottom: 0;
+    position: absolute;
+}
