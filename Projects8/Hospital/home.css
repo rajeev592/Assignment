@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+}
+/* designing the navigation menu */
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+/* designing the logo */
+nav img{
+    width: 150px;
+}
+
+/* desiging the navigation menu links */
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+nav ul li:first-child{
+    font-weight: 700;
+    color: #20bc7e;
+}
+a{
+     text-decoration: none;
+     color: #000000;
+}
+/* designing the main section */
+main{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    height: 85vh;
+    
+}
+main section{
+    width: 50%;
+}
+/* designing the left section */
+.leftsection{
+    margin-left: 5%;
+    position: relative;
+}
+img[alt="topAngle"] {
+    width: 25px;
+}
+.leftsection h1{
+    font-size: 70px;
+}
+.leftsection p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: #7c7c7c;
+}
+img[alt="bottomAngle"] {
+    width: 25px;
+    right: 25px;
+    position: absolute;
+}
+img[alt="stethoscope"] {
+    position: absolute;
+    top: -60px;
+    width: 90%;
+    right: -25%;
+    z-index: -1;
+}
+img[alt="mouse"] {
+    position: absolute;
+    width: 30px;
+    right: -30px;
+    bottom: 0;
+    
+}
+/* designing the right section */
+img[alt="greenBox"],
+img[alt="yellowBox"],
+img[alt="doctor"] {
+    position: absolute;
+    right: 0;
+}
+img[alt="greenBox"] {
+    width: 35%;
+    bottom: 30px;
+}
+img[alt="yellowBox"] {
+    width: 30%;
+    bottom: 50px;
+}
+img[alt="doctor"] {
+    bottom: 0;
+    height: 90%;
+}
+
