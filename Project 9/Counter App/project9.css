@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    background-color: aqua;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* designing the counter App */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-shadow: 0 0 5px #000000;
+    border-radius: 5px;
+    padding: 60px;
+    flex-direction: column;
+    background-color: cornflowerblue;
+}
+/* designing button */
+button{
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ff2200;
+}
+#displayValue{
+    padding: 5px 15px;
+    /* font-weight: bold; */
+    font-size: 25px;
+    border: 1px solid #000000;
+}

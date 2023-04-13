@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    width: 20rem;
+    background-color: #0be40f;
+    cursor: pointer;
+    color: #f5deb3;
+   text-align: center;
+   font-size: 25px;
+   border-radius: 5px;
+}

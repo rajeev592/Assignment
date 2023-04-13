@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#box{
+    width: 20rem;
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
